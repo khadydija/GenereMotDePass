@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mot de passe</title>
+</head>
+<body>
+    <div class="header">
+        <div class="form">
+            <form action="">
+                <div class="passe">
+                    <input type="text" class="passWord" >
+                    <div> <button >Copy</button></div>
+                </div> 
+                <div class="espace">
+                    <div><label class="lab">Longueur du PassWord </label></div>
+                    <div><input type="number" value="15" class="longPass" min="15" max="20"></div>
+                </div> 
+                <div class="espace">
+                    <div><label class="lab">Contient des lettres Majuscules </label></div>
+                    <div><input type="checkbox" class="check" name="majuscule"></div>
+                </div>
+                <div class="espace">
+                    <div><label class="lab">Contient des lettres Minuscule</label></div>
+                    <div><input type="checkbox" class="check" name="miniscule"></div>
+                </div>
+                <div class="espace">
+                    <div><label class="lab">Contient des Nombres  </label></div>
+                    <div><input type="checkbox" class="check" name="contientNbre"></div>
+                </div>
+                <div class="espace">
+                    <div><label class="lab">Contient des Caracteres Speciaux </label></div>
+                    <div><input type="checkbox" class="check" name="contientCaract"></div>
+                </div>
+                <div><input type="submit" name="genere" value="Generer le Mot de Passe " class="submit"></div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
